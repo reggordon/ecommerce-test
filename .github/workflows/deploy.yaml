@@ -17,7 +17,7 @@ jobs:
         uses: appleboy/ssh-action@v0.1.5
         with:
           host: 34.22.192.120
-          username: reg-gordon1977
+          username: reggordonphoto
           key: ${{ secrets.GCP_SSH_KEY }}
           script: |
             cd /var/www/html/ecommerce-test
