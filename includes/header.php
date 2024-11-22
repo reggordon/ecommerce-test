@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Store</h1>
+        <h1>Welcome to Reg's Store</h1>
         <nav>
             <a href="index.php">Home</a>
             <a href="cart.php">Cart</a>
