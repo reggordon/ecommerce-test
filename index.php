@@ -6,7 +6,7 @@ include 'includes/header.php';
 include 'includes/functions.php';
 $products = getProducts($conn);
 ?>
-<h2>Our Products</h2>
+<h2>These are the  Products</h2>
 <div>
     <?php foreach ($products as $product): ?>
         <div>
