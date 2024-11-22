@@ -16,8 +16,8 @@ jobs:
       - name: Deploy to GCP via SSH
         uses: appleboy/ssh-action@v0.1.5
         with:
-          host: reg-test
-          username: reg_gordon1977
+          host: 34.22.192.120
+          username: reg-gordon1977
           key: ${{ secrets.GCP_SSH_KEY }}
           script: |
             cd /var/www/html/ecommerce-test
